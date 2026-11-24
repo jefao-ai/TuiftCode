@@ -1,13 +1,13 @@
 {
   "name": "after-effects-mcp",
-  "repository": "iamjeffia/ae-mcp-tuift",
+  "repository": "jefao-ai/ae-mcp-tuift",
   "license": "MIT",
   "pinned": true,
   "version": "0.4.0",
   "tag": "v0.4.0",
   "commit": "e0fb7c3b552ba35601dde4154896c6293f9b15ca",
   "asset": "after-effects-mcp-0.4.0.tgz",
-  "url": "https://github.com/iamjeffia/ae-mcp-tuift/releases/download/v0.4.0/after-effects-mcp-0.4.0.tgz",
+  "url": "https://github.com/jefao-ai/ae-mcp-tuift/releases/download/v0.4.0/after-effects-mcp-0.4.0.tgz",
   "sha256": "82b88dd87593ea9c654d6d17ffa78d30b152d35ed44e3a977f9a0c86a7bd9485",
   "bytes": 3331951
 }

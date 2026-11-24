@@ -58,7 +58,7 @@ const sha = (buffer) => createHash('sha256').update(buffer).digest('hex')
 
 /** A manifest that pins `gz`, the way the coordinator would after publishing it. */
 function pinFor(gz) {
-  const repository = 'iamjeffia/ae-mcp-tuift'
+  const repository = 'jefao-ai/ae-mcp-tuift'
   return {
     name: 'after-effects-mcp',
     repository,
@@ -99,7 +99,7 @@ const noNetwork = () => assert.fail('the stand-in file must replace the download
 /** The manifest as it is before a release is pinned; the committed one may be either. */
 const UNPINNED = {
   name: 'after-effects-mcp',
-  repository: 'iamjeffia/ae-mcp-tuift',
+  repository: 'jefao-ai/ae-mcp-tuift',
   license: 'MIT',
   pinned: false,
   version: null,
@@ -114,7 +114,7 @@ const UNPINNED = {
 test('the committed manifest is sound, pinned to a whole release or not pinned at all', async () => {
   const manifest = await readManifest()
   assert.deepEqual(manifestProblems(manifest), [])
-  assert.equal(manifest.repository, 'iamjeffia/ae-mcp-tuift')
+  assert.equal(manifest.repository, 'jefao-ai/ae-mcp-tuift')
   assert.equal(manifest.license, 'MIT')
   for (const field of ['version', 'tag', 'commit', 'url', 'sha256', 'bytes'])
     assert.equal(manifest[field] === null, !manifest.pinned, field)

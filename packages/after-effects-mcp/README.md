@@ -1,6 +1,6 @@
 # After Effects MCP server
 
-Pins one release of the After Effects MCP server (`iamjeffia/ae-mcp-tuift`, MIT) that Motion chats
+Pins one release of the After Effects MCP server (`jefao-ai/ae-mcp-tuift`, MIT) that Motion chats
 attach. `server.json` is the manifest; `scripts/sync.js` builds `bundle/` from it (gitignored), and
 the installer copies `bundle/after-effects-mcp/` to `resources/after-effects-mcp`, outside the asar.
 
@@ -17,7 +17,7 @@ the app behaves as it did without this package. After the release is published, 
 | `tag`     | the release tag, e.g. `v1.0.0`                                              |
 | `commit`  | the full 40-character commit of the tag                                     |
 | `asset`   | `after-effects-mcp-<version>.tgz`                                           |
-| `url`     | `https://github.com/iamjeffia/ae-mcp-tuift/releases/download/<tag>/<asset>` |
+| `url`     | `https://github.com/jefao-ai/ae-mcp-tuift/releases/download/<tag>/<asset>` |
 | `sha256`  | SHA-256 of the `.tgz` (64 hex characters)                                   |
 | `bytes`   | size of the `.tgz` in bytes                                                 |
 
